@@ -1,4 +1,7 @@
-
+img{
+	border-radius:20%;
+	object-fit:cover;
+}
 body{
 	background-color:lightgray;
 	margin:0 auto;
@@ -65,11 +68,11 @@ th, td{
 	border:2px solid #ddd;
 	padding: 0 15px;
 }
-table tr:nth-child(even){
-	background-color: #f2f2f2;
+table tr:nth-child(odd){
+	background-color: hsl(276, 48%, 86%);
 }
-table tr:hover{
-	background-color: #ddd;
+table th, tr:hover{
+	background-color: #0a6d42;
 }
 th {
 	padding-top: 12px;
