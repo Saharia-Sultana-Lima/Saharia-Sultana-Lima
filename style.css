@@ -51,7 +51,7 @@ ul {
 	padding: 0;
 }
 ul li {
-	background: #f4f4f4;
+	background: hsl(0, 9%, 85%);
 	margin: 5px 0;
 	padding: 10px;
 	border-left: 4px solid #333;
